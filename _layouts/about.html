@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="hero hero--small hero--bg">
+	<div class="container">
+		<h1 class="hero__title">{{ page.title }}</h1>
+	</div>
+</section>
+
+<section class="section-pad">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<article class="about">
+					{{content}}
+				</article>
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+				<aside class="bio">
+					{% if page.bio.image %}
+					<figure class="bio__image avatar">
+						<img class="circle" src="{{page.bio.image}}" alt="Headshot for Jake Cooper">
+					</figure>
+					{% endif %}
+					{{page.bio.text | markdownify }}
+				</aside>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>

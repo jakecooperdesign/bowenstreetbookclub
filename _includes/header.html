@@ -1,0 +1,28 @@
+<header class="site-header">
+
+  <nav class="navbar">
+    <div class="container">
+
+      <div class="navbar-header">
+        <a href="{{ site.baseurl }}/" class="navbar__brand">
+          <!-- <img class="site__logo" src="/assets/img/BSBC-LogoText.svg" alt="Bowen Street Book Club logo"> -->
+          <span class="site__logo__text">{{ site.title }}</span>
+        </a>
+      </div>
+      
+      <div class="navbar-right">
+        <input type="checkbox" name="nav-links-checkbox" id="nav-links-checkbox" class="nav__toggle__input">
+        <label id="nav-links-label" for="nav-links-checkbox" class="nav__toggle__label"><span class="text--start">Menu&ensp;<i class="fa fa-bars"></i></span><span class="text--end">Close</span></label>
+        <ul class="navbar__links">
+          {% for link in site.data.nav %}
+            {% if link.url %}
+              <li><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.label }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+
+</header>

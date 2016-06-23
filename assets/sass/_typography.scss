@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Trocchi';
+
+@mixin small-tracked($spacing: 2px) {
+	text-transform: uppercase;
+	letter-spacing: $spacing;
+}
+
+.small-tracked {
+	@include small-tracked();
+	font-size: .75em;
+}
+
+.text--white {
+	color: white;
+}
+
+.text--centered {
+	text-align: center;
+}
+
+.text--right {
+	text-align: right;
+}
+
+.lead {
+	font-size: 1.25em;
+	font-weight: 300;
+	line-height: 1.5;
+
+	p#{&},
+	& p {
+		margin-bottom: 1.5em;
+	}
+}

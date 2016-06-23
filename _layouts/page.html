@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<section class="hero hero--small">
+	<figure class="hero__image">
+		<img src="{{ page.hero.image | default: site.data.settings.hero.image }}" alt="Hero Image">
+	</figure>
+	<div class="container">
+		<h1 class="hero__title">
+			<small class="block-small">{{ page.subhead | default: page.layout }}</small>
+			{{ page.title }}
+		</h1>
+	</div>
+</section>
+
+<div class="container">
+	{{ content }}
+</div>
+

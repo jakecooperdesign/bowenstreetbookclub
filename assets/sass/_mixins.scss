@@ -1,0 +1,38 @@
+@function grey($percent) {
+	@return darken(white, $percent);
+}
+
+@function bp($name) {
+	@return map-get($breakpoints, $name);
+}
+
+@function color($name) {
+	@return map-get($colors, $name);
+}
+
+@mixin cover() {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@mixin bg-image($url) {
+	background-image: url(#{$url});
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+@mixin bp-min($width) {
+	@media screen and (min-width: $width) {
+		@content;
+	}
+}
+
+@mixin bp-max($width) {
+	@media screen and (max-width: $width) {
+		@content;
+	}
+}

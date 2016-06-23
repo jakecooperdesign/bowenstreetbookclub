@@ -1,0 +1,10 @@
+- url: "/"
+  label: "Home"
+
+- url: "/books/red-rising/"
+  label: "Recaps"
+
+- url: "/about/"
+  label: "About"
+
+

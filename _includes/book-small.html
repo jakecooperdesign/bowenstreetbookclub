@@ -1,0 +1,24 @@
+<article class="book">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<div class="flex-card">
+					<figure class="flex-card__image">
+						<img src="{{ book.image }}" alt="Image for {{ book.title }}">
+					</figure>
+					<section class="flex-card__body">
+						<header class="flex-card__header">
+							<h3 class="book__title">{{book.title}}</h3>
+							<p class="book__author">by <strong>{{book.author}}</strong></p>
+						</header>
+
+						{{book.content | truncatewords: 50}}
+
+						<footer class="flex-card__footer">
+							<a href="{{book.amazonLink}}" target="_blank" class="btn book__cta m0">Purchase on Amazon&ensp;<i class="fa fa-shopping-cart"></i></a>
+							<a href="{{book.url}}" class="btn">Read the Recaps</a>
+						</footer>
+					</section>
+				</div>
+			</div>
+		</div>
+</article>

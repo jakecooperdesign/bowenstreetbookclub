@@ -1,0 +1,12 @@
+@mixin reverse-link() {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.reverse-link {
+	@include reverse-link();
+}
+

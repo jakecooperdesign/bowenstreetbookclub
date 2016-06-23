@@ -1,0 +1,74 @@
+.hero {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 4em 0;
+}
+
+.hero--bg {
+	position: relative;
+	overflow: hidden;
+
+	&:before {
+		display: block;
+		content: "";
+		z-index: -1;
+		opacity: 0.3;
+		@include cover();
+		@include bg-image("/assets/img/BGs/web/hero-bg-books-1.jpg");
+	}
+}
+
+.hero--small {
+	padding: 1em 0;
+	text-align: left;
+
+	.hero__title {
+		font-size: 1.5em;
+	}
+}
+
+.hero__title {
+	a {
+		color: grey(80);
+	}
+}
+
+.hero__image {
+	@include cover();
+	margin: 0;
+	overflow: hidden;
+	z-index: -1;
+	background-color: darkblue;
+
+	img {
+		width: 100%;
+		opacity: 0.8;
+	}
+}
+
+.signup-form {
+	font-size: 1rem;
+	margin-top: 3em;
+
+	input, 
+	button {
+		height: 4em;
+	}
+
+	input {
+		width: 50%;
+	}
+
+	button {
+		padding-left: 2em;
+		padding-right: 2em;
+		margin-left: .25rem;
+		background-color: grey(100);
+		border: 1px solid rgba(0,0,255,0.3);
+
+		&:hover {
+			background-color: white;
+			color: black;
+		}
+	}
+}

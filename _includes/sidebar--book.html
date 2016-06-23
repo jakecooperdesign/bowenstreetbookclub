@@ -1,0 +1,15 @@
+<aside class="sidebar book--sidebar">
+	<article class="book--small">
+		<figure class="book__image">
+			<img src="{{book.image}}" alt="{{book.title}}">
+		</figure>
+		<header class="book__header">
+			<h4 class="book__title">{{book.title}}</h4>
+			<p class="book__author">{{book.author}}</p>
+		</header>
+		<div class="book__excerpt">
+			{{book.excerpt | truncatewords: 30}}
+		</div>
+		<a href="{{book.amazonLink}}" target="_blank" class="btn btn--block mb0 book__cta">Purchase on Amazon&ensp;<i class="fa fa-shopping-cart"></i></a>
+	</article>
+</aside>

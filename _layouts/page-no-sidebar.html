@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="hero hero--small hero--bg">
+	<div class="container">
+		<h1 class="hero__title">
+			<a class="reverse-link" href="{{book.url}}">{{ page.title }}</a>
+		</h1>
+	</div>
+</section>
+
+<section class="section-pad--top">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				{{content}}
+			</div>
+		</div>
+	</div>
+	<footer class="section__footer">
+		{% include form--catch.html %}
+	</footer>
+	</div>
+</section>

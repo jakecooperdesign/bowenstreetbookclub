@@ -1,0 +1,44 @@
+.form--catch {
+	background: grey(5);
+	// color: white;
+	text-align: center;
+	padding: 1em;
+
+	input,button {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.form__description {
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@include bp-min(bp(md)) {
+		padding: 2em 4em;
+
+		input,button {
+			display: inline-block;
+		}
+	
+		input {
+			width: 70%;
+			max-width: 500px;
+			text-align: left;
+		}
+
+		button {
+			width: 20%;
+		}
+	}
+	
+	
+	button {
+
+		&:hover {
+			background-color: color(blue);
+		}
+	}
+}

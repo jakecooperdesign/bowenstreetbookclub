@@ -1,0 +1,12 @@
+<article class="recap recap--summary">
+	<header>
+		<h3 class="recap__title mt0">
+			<small class="recap__date block-small">{{recap.recap_date | date: "%B %d, %Y"}}</small>
+			{{recap.title}}
+		</h3>
+	</header>
+	<div class="recap__body">
+		{{recap.excerpt | truncatewords: 30}}
+	</div>
+	<a href="{{recap.url}}" class="btn mb0">Read Full Recap&ensp;<i class="fa fa-caret-right"></i></a>
+</article>

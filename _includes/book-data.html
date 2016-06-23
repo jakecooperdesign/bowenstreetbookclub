@@ -1,0 +1,27 @@
+<article class="current-book">
+	<div class="row">
+		<header class="book__header col-md-4">
+			<h3 class="book__title">{{book.title}}</h3>
+			<ul class="book__meta-list meta__list list-unstyled">
+				<li><span class="meta__label">Author</span> {{book.author}}</li>
+				<li><span class="meta__label">Published On</span> {{book.published}}</li>
+			</ul>
+			<a href="{{book.amazon_link}}" class="btn">Purchase on Amazon</a>
+		</header>
+
+		<section class="col-md-8">
+
+			<h4>Reading starts <strong>{{ book.start_date | date: "%B %d, %Y" }}</strong></h4>
+
+			{% if book.reasons %}
+			<h4 class="small-tracked">Why We're Reading</h4>
+			<ul>
+				{% for reason in book.reasons %}
+				<li>{{reason}}</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+
+		</section>
+	</div>
+</article>

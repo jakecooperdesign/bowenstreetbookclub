@@ -1,0 +1,20 @@
+---
+layout: page-sidebar
+subhead: "Books"
+---
+
+<h2 class="headline">Recaps</h2>
+
+<article class="recaps">
+{% assign recaps = site.recaps | where:"book_slug", page.slug %}
+{% if recaps.size > 0 %}
+	{% for recap in recaps %}
+		{% include recap--summary.html %}
+	{% endfor %}
+	{% unless book.complete %}
+	    <p class="small-tracked">Check back here for more recaps&ensp;<i class="fa fa-thumbs-up"></i></p>
+    {% endunless %}
+{% else %}
+	<p class="lead">No recaps yet, but they'll be coming soon&ensp;<i class="fa fa-thumbs-up"></i></p>
+{% endif %}
+</article>

@@ -1,0 +1,39 @@
+.flex-card {
+	background-color: white;
+	display: flex;
+	align-items: center;
+
+	&__image {
+		width: 40%;
+		display: none;
+
+		@include bp-min(bp(lg)) {
+			display: block;
+		}
+	}
+
+	img {
+		display: block;
+	}
+
+	&__body {
+		flex: 1;
+		padding: 3em;
+	}
+
+	&__footer {
+		padding-top: 1.5em;
+
+		a {
+			display: block;
+			text-align: center;
+			margin: 1em 0 0 0;
+
+			@include bp-min(bp(md)) {
+				display: inline-block;
+				text-align: left;
+				margin: 0;
+			}
+		}
+	}
+}

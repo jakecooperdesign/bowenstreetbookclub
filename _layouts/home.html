@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="hero hero--bg">
+	<div class="container">
+		<h2>{{ page.hero.headline }}</h2>
+		<p>{{ page.hero.subhead | markdownify }}</p>
+		<form class="form signup-form" action="//bowenstreetbookclub.us13.list-manage.com/subscribe/post?u=3fd6b9bc1385bf5ea10eb527d&amp;id=2609d34696" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+			<p>
+				<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="george.martin@asoiaf.com"> <button>Sign Up</button>
+			</p>
+		</form>
+	</div>
+</section>
+
+{% assign book = site.books | where:"featured",true | first %}
+{% if book.title %}
+<section class="section-pad bg-light">
+	<div class="container">
+		<h2 class="section-heading">Current Book</h2>
+		{% include book-small.html %}
+		<footer class="text--centered">
+			<p class="lead btn btn--outline">First recap goes up <strong>{{book.start_date | date: "%B %d, %Y" }}</strong></p>
+		</footer>
+	</div>
+</section>
+{% endif %}
+
+{% comment %}{% include about.html %}{% endcomment %}

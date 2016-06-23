@@ -1,0 +1,65 @@
+
+@mixin clearfix() {
+	&:after {
+	    content:" ";
+	    display:block;
+	    clear:both;
+	}
+}
+
+.clearfix {
+	@include clearfix;
+}
+
+.container {
+	width: 90%;
+}
+
+.container,
+.container-break {
+	margin: 0 auto;
+	@include clearfix();
+	@include bp-min($container-width) {
+		width: $container-width;
+	}
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+@include bp-min(bp(sm)){
+	.row {
+		@include clearfix;
+		margin-left: -1/2 * $col-gutter;
+		margin-right: -1em;
+	}
+
+	[class^="col-"] {
+		float: left;
+		padding-left: 1/2 * $col-gutter;
+		padding-right: 1/2 * $col-gutter;
+		width: 100%;
+	}
+}
+
+@each $bp,$width in $breakpoints {
+
+	@include bp-min($width) {
+
+		@for $i from 1 through 12 {
+
+			.col-#{$bp}-#{$i} {
+				width: 100% / 12 * $i;
+			}
+
+			.col-#{$bp}-offset-#{$i} {
+				margin-left: 100% / 12 * $i;
+			}
+		}	
+	}
+}

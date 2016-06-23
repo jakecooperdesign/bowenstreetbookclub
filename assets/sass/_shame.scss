@@ -1,0 +1,44 @@
+.avatar {
+	max-width: 100px;
+
+	img {
+		border: 3px solid white;
+	}
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.about {
+	font-size: 1.25rem;
+}
+
+.bio {
+	padding: 2em;
+	background-color: grey(4);
+	border-radius: .25rem;
+	text-align: center;
+	font-size: .85rem;
+	line-height: 1.75;
+	color: grey(60);
+	margin-top: 4rem;
+
+	@include bp-min(bp(md)) {
+		margin-top: 2rem;
+		padding-left: 2em;
+		border-radius: none;
+		// border-left: 1px solid grey(10);
+	}
+
+
+	strong,
+	a {
+		color: black;
+	}
+
+	.avatar {
+		display: block;
+		margin: 0 auto 2em;
+	}
+}
