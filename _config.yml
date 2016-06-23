@@ -12,7 +12,7 @@ description: >
   No meetings. No dues. Just One book at a time. <br />
   A little bit each week, with recaps and insights in your inbox."
 baseurl: ""
-url: "http://bowenstreetbookclub.com" # the base hostname & protocol for your site
+url: "http://jakecooperdesign.github.io/bowenstreetbookclub" # the base hostname & protocol for your site
 
 include: ["_pages"]
 
