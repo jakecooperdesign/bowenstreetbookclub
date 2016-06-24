@@ -8,5 +8,5 @@
 	<div class="recap__body">
 		{{recap.excerpt | truncatewords: 30}}
 	</div>
-	<a href="{{recap.url}}" class="btn mb0">Read Full Recap&ensp;<i class="fa fa-caret-right"></i></a>
+	<a href="{{recap.url | prepend: site.baseurl}}" class="btn mb0">Read Full Recap&ensp;<i class="fa fa-caret-right"></i></a>
 </article>

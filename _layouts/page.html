@@ -4,7 +4,7 @@ layout: default
 
 <section class="hero hero--small">
 	<figure class="hero__image">
-		<img src="{{ page.hero.image | default: site.data.settings.hero.image }}" alt="Hero Image">
+		<img src="{{ page.hero.image | default: site.data.settings.hero.image | prepend: site.baseurl }}" alt="Hero Image">
 	</figure>
 	<div class="container">
 		<h1 class="hero__title">

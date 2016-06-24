@@ -4,20 +4,6 @@
 	padding: 4em 0;
 }
 
-.hero--bg {
-	position: relative;
-	overflow: hidden;
-
-	&:before {
-		display: block;
-		content: "";
-		z-index: -1;
-		opacity: 0.3;
-		@include cover();
-		@include bg-image("/assets/img/BGs/web/hero-bg-books-1.jpg");
-	}
-}
-
 .hero--small {
 	padding: 1em 0;
 	text-align: left;

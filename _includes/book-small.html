@@ -3,7 +3,7 @@
 		<div class="col-md-10 col-md-offset-1">
 			<div class="flex-card">
 					<figure class="flex-card__image">
-						<img src="{{ book.image }}" alt="Image for {{ book.title }}">
+						<img src="{{site.baseurl}}{{ book.image }}" alt="Image for {{ book.title }}">
 					</figure>
 					<section class="flex-card__body">
 						<header class="flex-card__header">
@@ -15,7 +15,7 @@
 
 						<footer class="flex-card__footer">
 							<a href="{{book.amazonLink}}" target="_blank" class="btn book__cta m0">Purchase on Amazon&ensp;<i class="fa fa-shopping-cart"></i></a>
-							<a href="{{book.url}}" class="btn">Read the Recaps</a>
+							<a href="{{site.baseurl}}{{book.url}}" class="btn">Read the Recaps</a>
 						</footer>
 					</section>
 				</div>

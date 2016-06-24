@@ -20,7 +20,7 @@ layout: default
 				<aside class="bio">
 					{% if page.bio.image %}
 					<figure class="bio__image avatar">
-						<img class="circle" src="{{page.bio.image}}" alt="Headshot for Jake Cooper">
+						<img class="circle" src="{{site.baseurl}}{{page.bio.image}}" alt="Headshot for Jake Cooper">
 					</figure>
 					{% endif %}
 					{{page.bio.text | markdownify }}
