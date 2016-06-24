@@ -11,8 +11,8 @@ email: jakecooperdesign@gmail.com
 description: > 
   No meetings. No dues. Just One book at a time. <br />
   A little bit each week, with recaps and insights in your inbox."
-baseurl: ""
-url: "http://jakecooperdesign.github.io/bowenstreetbookclub" # the base hostname & protocol for your site
+baseurl: "/bowenstreetbookclub"
+url: ""
 
 include: ["_pages"]
 

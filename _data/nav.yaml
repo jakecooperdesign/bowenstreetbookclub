@@ -1,8 +1,8 @@
 - url: "/"
   label: "Home"
 
-- url: "/books/red-rising/"
-  label: "Recaps"
+- url: "/books/"
+  label: "Books"
 
 - url: "/about/"
   label: "About"

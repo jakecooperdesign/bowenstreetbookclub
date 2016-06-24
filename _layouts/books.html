@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="hero hero--small hero--bg">
+	<div class="container">
+		<h1 class="hero__title">
+			<a class="reverse-link" href="{{book.url}}">{{ page.title }}</a>
+		</h1>
+	</div>
+</section>
+
+<section class="section-pad">
+	<div class="container">
+		{% for book in site.books %}
+			{% include book-small-no-image.html %}
+		{% endfor %}
+	</div>
+	<footer class="section__footer">
+		{% include form--catch.html %}
+	</footer>
+	</div>
+</section>

@@ -1,3 +1,0 @@
-I love reading, but I’m definitely not the world’s best reader. I’ve got a lot on my mind and even more on my plate. I get my reading in when I can, but I never seem to have anyone to talk to about it. Sometimes I’ll read a book a friend recommends, but when I want to talk to them about it, they don’t remember the chapter I’m up to, and often they can’t help but spoil the ending.
-
-Through this book club, I’m going to read a book at an easy pace and send out an email with a recap and some thoughts to those that want to read along with me. If you don’t have time right now, or read at a slower pace, the recaps are online so you can get to them when you’re ready. Add your thoughts and questions in a comment, or join my slack team to chat in-between chapters.

@@ -1,0 +1,17 @@
+<article class="book">
+	<div class="flex-card">
+		<section class="flex-card__body">
+			<header class="flex-card__header">
+				<h3 class="book__title">{{book.title}}</h3>
+				<p class="book__author">by <strong>{{book.author}}</strong></p>
+			</header>
+
+			{{book.content}}
+
+			<footer class="flex-card__footer">
+				<a href="{{book.amazonLink}}" target="_blank" class="btn book__cta m0">Purchase on Amazon&ensp;<i class="fa fa-shopping-cart"></i></a>
+				<a href="{{book.url}}" class="btn">Read the Recaps</a>
+			</footer>
+		</section>
+	</div>
+</article>
