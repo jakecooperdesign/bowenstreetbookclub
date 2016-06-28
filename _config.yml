@@ -11,8 +11,8 @@ email: jakecooperdesign@gmail.com
 description: > 
   No meetings. No dues. Just One book at a time. <br />
   A little bit each week, with recaps and insights in your inbox."
-baseurl: "/bowenstreetbookclub"
-url: ""
+baseurl: ""
+url: "http://bowenstreetbookclub.com"
 
 include: ["_pages"]
 
