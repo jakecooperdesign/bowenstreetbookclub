@@ -4,7 +4,7 @@ book_slug: "red-rising"
 featured: true
 author: "Pierce Brown"
 published: "July 15, 2014"
-start_date: 2016-07-01
+start_date: 2016-07-15
 complete: false
 tags: ["sci-fi", "fantasy"]
 image: /assets/img/Covers/Cover-Pierce-Brown-Red-Rising.jpg
