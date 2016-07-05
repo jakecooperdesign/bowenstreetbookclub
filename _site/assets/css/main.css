@@ -3134,6 +3134,30 @@ button {
   .form--catch button:hover {
     background-color: #0000b3; }
 
+.signup-form {
+  font-size: 1rem;
+  margin-top: 3em; }
+  .signup-form input,
+  .signup-form button {
+    height: 4em;
+    width: 100%;
+    margin: .25rem 0; }
+  @media screen and (min-width: 760px) {
+    .signup-form input {
+      width: 55%; } }
+  .signup-form button {
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: black;
+    border: 1px solid rgba(0, 0, 255, 0.3); }
+    .signup-form button:hover {
+      background-color: white;
+      color: black; }
+    @media screen and (min-width: 760px) {
+      .signup-form button {
+        margin-left: .25rem;
+        width: auto; } }
+
 .recap__title {
   font-size: 2rem; }
 .recap__date {
@@ -3182,24 +3206,6 @@ button {
   .hero__image img {
     width: 100%;
     opacity: 0.8; }
-
-.signup-form {
-  font-size: 1rem;
-  margin-top: 3em; }
-  .signup-form input,
-  .signup-form button {
-    height: 4em; }
-  .signup-form input {
-    width: 50%; }
-  .signup-form button {
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-left: .25rem;
-    background-color: black;
-    border: 1px solid rgba(0, 0, 255, 0.3); }
-    .signup-form button:hover {
-      background-color: white;
-      color: black; }
 
 .navbar {
   padding: 1.5em 0;

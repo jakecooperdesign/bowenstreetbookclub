@@ -42,3 +42,38 @@
 		}
 	}
 }
+
+.signup-form {
+	font-size: 1rem;
+	margin-top: 3em;
+
+	input, 
+	button {
+		height: 4em;
+		width: 100%;
+		margin: .25rem 0;
+	}
+
+	input {
+		@include bp-min(bp(md)) {
+			width: 55%;
+		}
+	}
+
+	button {
+		padding-left: 2em;
+		padding-right: 2em;
+		background-color: grey(100);
+		border: 1px solid rgba(0,0,255,0.3);
+
+		&:hover {
+			background-color: white;
+			color: black;
+		}
+		
+		@include bp-min(bp(md)) {
+			margin-left: .25rem;
+			width: auto;
+		}
+	}
+}
