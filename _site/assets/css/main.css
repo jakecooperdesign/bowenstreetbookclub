@@ -2601,6 +2601,8 @@ textarea {
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.5; }
+  .lead strong {
+    font-weight: 700; }
   .lead p.lead, .lead p {
     margin-bottom: 1.5em; }
 
