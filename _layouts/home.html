@@ -26,3 +26,20 @@ layout: default
 	</div>
 </section>
 {% endif %}
+
+
+{% if page.how_does_this_work | length %}
+<section class="section-pad">
+	<div class="container">
+		<h2 class="section-heading">How Exactly does this work?</h2>
+		<ol class="flex-counters">
+			{% for step in page.how_does_this_work %}
+				<li>
+					<i class="fa fa-{{step.icon}}"></i>
+					{{step.text}}
+				</li>
+			{% endfor %}
+		</ol>
+	</div>
+</section>
+{% endif %}

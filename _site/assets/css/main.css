@@ -3496,6 +3496,43 @@ input {
     display: block;
     margin: 0 auto 2em; }
 
+.flex-counters {
+  list-style: none;
+  counter-reset: flex-counters;
+  margin: 0;
+  padding: 0; }
+  .flex-counters li {
+    margin: .25rem 0;
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: #333333;
+    padding: 3rem;
+    border-radius: .25rem;
+    text-align: center;
+    background-color: whitesmoke;
+    position: relative; }
+    .flex-counters li:before {
+      counter-increment: flex-counters;
+      content: counter(flex-counters,decimal-leading-zero);
+      position: absolute;
+      display: block;
+      top: 1rem;
+      left: 1rem;
+      font-size: .85rem;
+      color: #999999; }
+  .flex-counters .fa {
+    font-size: 6rem;
+    color: #00004d;
+    margin-bottom: 2rem;
+    display: block; }
+  @media screen and (min-width: 480px) {
+    .flex-counters {
+      display: flex;
+      flex-wrap: wrap; }
+      .flex-counters li {
+        flex: 1 0 calc(50% - 1rem);
+        margin: .25rem; } }
+
 .hero--bg {
   position: relative;
   overflow: hidden; }

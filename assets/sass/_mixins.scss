@@ -10,6 +10,10 @@
 	@return map-get($colors, $name);
 }
 
+@function branding($name) {
+	@return map-get($branding, $name);
+}
+
 @mixin cover() {
 	position: absolute;
 	top: 0;
