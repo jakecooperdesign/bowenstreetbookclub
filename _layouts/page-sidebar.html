@@ -23,8 +23,12 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<footer class="section__footer">
-		{% include form--catch.html %}
-	</footer>
-	</div>
+
+	{% if layout.comments == true %}
+		{% include comments.html %}
+	{% endif %}
 </section>
+
+<footer class="section__footer">
+	{% include form--catch.html %}
+</footer>

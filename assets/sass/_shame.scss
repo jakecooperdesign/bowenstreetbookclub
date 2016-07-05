@@ -28,7 +28,6 @@
 		margin-top: 2rem;
 		padding-left: 2em;
 		border-radius: none;
-		// border-left: 1px solid grey(10);
 	}
 
 
@@ -43,11 +42,6 @@
 	}
 }
 
-// ol {
-// 	margin: 0;
-// 	padding: 0;
-// }
-
 .flex-counters {
 	list-style: none;
 	counter-reset: flex-counters;
@@ -58,7 +52,7 @@
 	li {
 		margin: .25rem 0;
 		font-size: 1.25rem;
-		font-weight: 100;
+		font-weight: 300;
 		color: grey(80);
 		padding: 3rem;
 		border-radius: .25rem;
@@ -96,4 +90,9 @@
 			margin: .25rem;
 		}
 	}
+}
+
+.comments {
+	border-top: 1px solid grey(10);
+	margin-top: 6em;
 }

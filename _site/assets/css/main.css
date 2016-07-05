@@ -3167,11 +3167,13 @@ button {
 .recap__body {
   font-size: 1.125em; }
   .recap__body p {
-    margin: 1.5em 0; }
+    margin: 1.6rem 0;
+    line-height: 1.6; }
   .recap__body p:first-of-type {
-    font-size: 1.25em;
-    line-height: 1.6;
-    margin-bottom: 2em; }
+    font-size: 1.25em; }
+  .recap__body h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 1rem; }
 
 .recaps {
   padding: 4em 0; }
@@ -3504,7 +3506,7 @@ input {
   .flex-counters li {
     margin: .25rem 0;
     font-size: 1.25rem;
-    font-weight: 100;
+    font-weight: 300;
     color: #333333;
     padding: 3rem;
     border-radius: .25rem;
@@ -3532,6 +3534,10 @@ input {
       .flex-counters li {
         flex: 1 0 calc(50% - 1rem);
         margin: .25rem; } }
+
+.comments {
+  border-top: 1px solid #e6e6e6;
+  margin-top: 6em; }
 
 .hero--bg {
   position: relative;

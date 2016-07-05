@@ -13,13 +13,17 @@
 		font-size: 1.125em;
 		
 		p {
-			margin: 1.5em 0;
+			margin: 1.6rem 0;
+			line-height: 1.6;
 		}
 
 		p:first-of-type {
 			font-size: 1.25em;
-			line-height: 1.6;
-			margin-bottom: 2em;
+		}
+
+		h2 {
+			margin-top: 3.2rem;
+			margin-bottom: 1rem;
 		}
 	}
 
