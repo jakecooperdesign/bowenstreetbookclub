@@ -5,6 +5,8 @@ featured: true
 author: "Pierce Brown"
 published: "July 15, 2014"
 start_date: 2016-07-15
+reading_status: >
+  My recap & review for the <strong>first two chapters</strong> will be posted <strong>July 15</strong>. <br>Get caught up and join me in the comments section!
 complete: false
 tags: ["sci-fi", "fantasy"]
 image: /assets/img/Covers/Cover-Pierce-Brown-Red-Rising.jpg
