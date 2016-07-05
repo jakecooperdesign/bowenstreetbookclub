@@ -32,3 +32,9 @@
 		display: none;
 	}
 }
+
+.br-max-md br {
+	@include bp-max(bp(md)) {
+		display: none;
+	}
+}
