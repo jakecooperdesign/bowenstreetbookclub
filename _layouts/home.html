@@ -2,13 +2,14 @@
 layout: default
 ---
 
+{% assign marketing = site.data.marketing %}
 <section class="hero hero--bg">
 	<div class="container">
-		<h2>{{ site.data.marketing.tagline }}</h2>
-		<p>{{ site.data.marketing.description }}</p>
+		<h2>{{ marketing.tagline }}</h2>
+		<p>{{ marketing.description }}</p>
 		<form class="form signup-form" action="//bowenstreetbookclub.us13.list-manage.com/subscribe/post?u=3fd6b9bc1385bf5ea10eb527d&amp;id=2609d34696" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 			<p>
-				<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="george.martin@asoiaf.com"> <button>{{ site.data.marketing.signup.button }}</button>
+				<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="george.martin@asoiaf.com"> <button>{{marketing.signup.button}}&nbsp;&nbsp;<i class="fa fa-fw fa-envelope"></i></button>
 			</p>
 		</form>
 	</div>

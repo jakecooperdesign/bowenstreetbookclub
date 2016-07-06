@@ -387,7 +387,7 @@ textarea {
   display: none; }
   @media screen and (min-width: 760px) {
     .is-visible-md {
-      display: initial; } }
+      display: inherit; } }
 
 @media screen and (min-width: 760px) {
   .is-hidden-md {
@@ -3113,7 +3113,7 @@ button {
 .form--catch {
   background: #f2f2f2;
   text-align: center;
-  padding: 1em; }
+  padding: 2em; }
   .form--catch input, .form--catch button {
     display: block;
     width: 100%;

@@ -23,7 +23,7 @@
 	display: none;
 	
 	@include bp-min(bp(md)) {
-		display: initial;
+		display: inherit;
 	}
 }
 
