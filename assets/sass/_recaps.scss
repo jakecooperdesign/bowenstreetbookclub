@@ -11,10 +11,10 @@
 	&__body {
 
 		font-size: 1.125em;
+		line-height: 1.6;
 		
 		p {
 			margin: 1.6rem 0;
-			line-height: 1.6;
 		}
 
 		p:first-of-type {
@@ -24,6 +24,25 @@
 		h2 {
 			margin-top: 3.2rem;
 			margin-bottom: 1rem;
+		}
+
+		h3 {
+			margin-top: 3.2rem;
+			margin-bottom: 0.5rem;
+			@include small-tracked();
+			font-family: $font-sans;
+			font-weight: 700;
+			font-size: 1rem;
+			color: grey(40);
+
+			& + p {
+				margin-top: 0;
+			}
+		}
+
+		li {
+			font-size: 1rem;
+			margin: 1rem 0;
 		}
 	}
 

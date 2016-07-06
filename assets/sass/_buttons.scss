@@ -10,7 +10,7 @@
 }
 
 @mixin button-colors() {
-	background: darken(darkblue, 20%);
+	background: black;
 	color: white;
 
 	&:hover {

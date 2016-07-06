@@ -19,23 +19,24 @@ Reds are supposedly a simple, romantic people, who counterbalance their rigorous
 
 Darrow determination and willingness to take risks for the betterment of his clan have made him a top ranking helldiver, and earned them the top spot towards winning the Laurel this quarter, breaking the long-held streak by a rival clan. The chapter ends with Darrow and his wife, Eo, heading to the quarter's end banquet where the earnings are given out.
 
+## Extras
 
-## Dat First Page Dow
+### Dat First Page Dow
 
 I started reading this book on my train ride home last week and from the first page (before chapter 1 begins) I was hooked. Way to setup the premise for the book in one freaking page! Before we get the backstory for the characters, Pierce Brown flash-forwards us to Darrow spying on a nazi-esque Gold rally (very General Hux addressing the First Order if you know what I mean), readying them for an upcoming war with the other classes — or maybe just the Reds, we’ll find that out later. But the stage is set: class warfare on a dystopian Martian mining colony where the underdog miners are prepared to fight back against their oppressors.
 
 
-## Everything’s A Remix
+### Everything’s A Remix
 
 There are some pretty obvious references to other famous sci-fi and fantasy novels influencing *Red Rising*, but I’m buying the premise so I’ll allow it. I picked up on the *Hunger Games*-style war over food, *Dune*-like still suits the Hell Divers wear, and even some *Footloose*-y “no singing’ and dancin’”. Despite the borrowed influences, I appreciate the setting of the story. The idea of a Martian mining colony in the middle of a class war sounds like a mashup of *Game of Thrones* and *There Will Be Blood* set in hell!
 
 
-## The Hero’s Journey Rubric
+### The Hero’s Journey Rubric
 
 So far Darrow is a pretty typical Hero in the midst of his hero’s journey: he’s part of an oppressed group of outcasts in a society stacked against him, yet he has a the determination and skills to possible break the mold for his family. As soon as they started painting Eo as this sweet, innocent wife, I started the countdown until something bad happens to her (don’t read the amazon description for the book if you want to avoid spoilers). She’ll be taken away from Darrow somehow which will be the last straw, compelling him to take the fight to the top.
 
 
-## Assorted Musings and Predictions
+### Assorted Musings and Predictions
 - When people are sentenced to death they’re hanged and their skeleton is left as a reminder to everyone else, fucking brutal! 
 - To top it off, there’s not enough gravity to break your neck when being hanged, so your family pulls you down until it breaks, family being Darrow in this scenario — that’s some Arya Stark level baddass foreshadowing, I can see him screaming “I wasn’t born a killer, I was made one”.
 - So much lingo in the first couple chapters without explanation it’s hard to keep track. Same with the distinctions between the different colors and how this caste system came about. Though if this book is like the millions other fantasy/sci-fi books out there, there will be plenty of backstory pounded into each chapter a la George R. R. Martin.

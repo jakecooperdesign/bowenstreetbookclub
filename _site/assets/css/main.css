@@ -2614,7 +2614,7 @@ button {
   text-decoration: none;
   margin: 1em 0;
   transition: color .3s,  border .3s, background-color .3s;
-  background: #000025;
+  background: black;
   color: white; }
   .btn:hover,
   button:hover {
@@ -3136,6 +3136,12 @@ button {
   .form--catch button:hover {
     background-color: #0000b3; }
 
+.form--sidebar {
+  margin-top: 1rem; }
+  .form--sidebar .btn {
+    display: block;
+    text-align: center; }
+
 .signup-form {
   font-size: 1rem;
   margin-top: 3em; }
@@ -3165,15 +3171,29 @@ button {
 .recap__date {
   color: gray; }
 .recap__body {
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  line-height: 1.6; }
   .recap__body p {
-    margin: 1.6rem 0;
-    line-height: 1.6; }
+    margin: 1.6rem 0; }
   .recap__body p:first-of-type {
     font-size: 1.25em; }
   .recap__body h2 {
     margin-top: 3.2rem;
     margin-bottom: 1rem; }
+  .recap__body h3 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #999999; }
+    .recap__body h3 + p {
+      margin-top: 0; }
+  .recap__body li {
+    font-size: 1rem;
+    margin: 1rem 0; }
 
 .recaps {
   padding: 4em 0; }
@@ -3538,6 +3558,11 @@ input {
 .comments {
   border-top: 1px solid #e6e6e6;
   margin-top: 6em; }
+
+.card--outline {
+  padding: 2em;
+  border: 1px solid #ebebeb;
+  border-radius: .25rem; }
 
 .hero--bg {
   position: relative;
