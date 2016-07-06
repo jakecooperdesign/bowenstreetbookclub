@@ -4,7 +4,7 @@ book_slug: "red-rising"
 recap_number: 1
 recap_date: 2016-07-15
 span: "Chapters 1 & 2"
-published: true
+published: false
 ---
 
 It's been 700 years since Earth began colonizing other planets in the solar systemic and the divides between those who work for the "greater good" of humanity and those who see the benefits are about to come tumbling down. 
