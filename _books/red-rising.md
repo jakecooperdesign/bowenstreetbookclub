@@ -10,7 +10,7 @@ reading_status: >
 complete: false
 tags: ["sci-fi", "fantasy"]
 image: /assets/img/Covers/Cover-Pierce-Brown-Red-Rising.jpg
-amazonLink: "https://www.amazon.com/Red-Rising-Pierce-Brown/dp/034553980X/ref=sr_1_1?ie=UTF8&qid=1466441283&sr=8-1&keywords=red+rising"
+amazonLink: "http://amzn.to/29hTqgX"
 reasons: 
   - Obvious Hunger Games / Battle Royale / YA-trope foundation ... I'm game
   - Set in a future Mars dystopia -- which is the best kind of -topia.
