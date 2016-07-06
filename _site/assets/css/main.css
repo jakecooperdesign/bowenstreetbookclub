@@ -383,11 +383,14 @@ textarea {
 .pr2 {
   padding-right: 2em !important; }
 
+.block {
+  display: block; }
+
 .is-visible-md {
   display: none; }
   @media screen and (min-width: 760px) {
     .is-visible-md {
-      display: inherit; } }
+      display: initial; } }
 
 @media screen and (min-width: 760px) {
   .is-hidden-md {
@@ -3137,7 +3140,8 @@ button {
     background-color: #0000b3; }
 
 .form--sidebar {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  display: block; }
   .form--sidebar .btn {
     display: block;
     text-align: center; }

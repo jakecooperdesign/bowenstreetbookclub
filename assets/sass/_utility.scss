@@ -19,11 +19,15 @@
 	padding-right: 2em !important;
 }
 
+.block {
+	display: block;
+}
+
 .is-visible-md {
 	display: none;
 	
 	@include bp-min(bp(md)) {
-		display: inherit;
+		display: initial;
 	}
 }
 
