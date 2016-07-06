@@ -22,5 +22,5 @@ how_does_this_work:
     text: The recap is then hosted online with extra commentary, assorted musings, and predictions.
   - 
     icon: users
-    text: We chat back and forth in the comments section with all our spoilery wickedness, and fangirly theories!
+    text: We chat back and forth in the comments section with all our spoilery goodness, and fangirl-y theories!
 ---
