@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Bowen Street Book Club"
 layout: "home"
 permalink: "/"
 

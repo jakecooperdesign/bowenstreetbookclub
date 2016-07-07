@@ -7,13 +7,29 @@
 
 # Site settings
 title: "Bowen Street Book Club"
-email: jakecooperdesign@gmail.com
 description: > 
-  We read a chapter or two each week and fangirl out in the comments section of my weekly recap & review hosted online.
-baseurl: ""
+  We read a chapter or two each week and fangirl out in the comments section of my weekly recap & review hosted online in this nerdy book club.
+email: jakecooperdesign@gmail.com
+author: jakec729
+logo: /assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg
+
 url: "http://bowenstreetbookclub.com"
+baseurl: ""
 
 include: ["_pages"]
+
+exclude: 
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME
+ - node_modules
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
