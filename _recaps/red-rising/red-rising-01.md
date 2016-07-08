@@ -1,9 +1,9 @@
 ---
-title: "The Rising Begins!"
-book_slug: "red-rising"
+title: The Rising Begins!
+book_slug: red-rising
 recap_number: 1
-recap_date: 2016-07-15
-span: "Chapters 1 & 2"
+recap_date: {}
+span: Chapters 1 & 2
 published: false
 ---
 
@@ -21,7 +21,7 @@ Darrow determination and willingness to take risks for the betterment of his cla
 
 ## Extras
 
-### Dat First Page Dow
+### Dat First Page Doe
 
 I started reading this book on my train ride home last week and from the first page (before chapter 1 begins) I was hooked. Way to setup the premise for the book in one freaking page! Before we get the backstory for the characters, Pierce Brown flash-forwards us to Darrow spying on a nazi-esque Gold rally (very General Hux addressing the First Order if you know what I mean), readying them for an upcoming war with the other classes — or maybe just the Reds, we’ll find that out later. But the stage is set: class warfare on a dystopian Martian mining colony where the underdog miners are prepared to fight back against their oppressors.
 
