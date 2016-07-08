@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="hero hero--bg">
+	<div class="container">
+		<h2>{{ page.title }}</h2>
+		{{content}}
+	</div>
+</section>
+
+{% assign book = site.books | where:"featured",true | first %}
+{% if book.title %}
+<section class="section-pad bg-light">
+	<div class="container">
+		<h2 class="section-heading">Current Book</h2>
+		{% include book-small.html %}
+		<footer class="text--centered">
+			<p class="lead btn btn--outline br-max-md">{{ book.reading_status }}</p>
+		</footer>
+	</div>
+</section>
+{% endif %}
