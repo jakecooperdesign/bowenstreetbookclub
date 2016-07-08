@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
   <meta charset="utf-8">
@@ -13,12 +13,19 @@
 <link rel="canonical" href="http://bowenstreetbookclub.com/" />
 <meta property="og:url" content="http://bowenstreetbookclub.com/" />
 <meta property="og:site_name" content="Bowen Street Book Club" />
+<meta property="og:image" content="http://bowenstreetbookclub.com/assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@bowenstbookclub" />
+<meta name="twitter:creator" content="@bowenstbookclub" />
+<meta property="article:publisher" content="150265972061629" />
+<meta property="fb:app_id" content="1062263850493715" />
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Bowen Street Book Club",
     "headline": "Bowen Street Book Club",
+    "image": "http://bowenstreetbookclub.com/assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg",
     "description": "We read a chapter or two each week and fangirl out in the comments section of my weekly recap &amp; review hosted online in this nerdy book club.",
     "logo": "http://bowenstreetbookclub.com/assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg",
     "url": "http://bowenstreetbookclub.com/"
@@ -32,7 +39,25 @@
 
   <body class="layout-home">
 
-    <header class="site-header">
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1062263850493715',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<header class="site-header">
 
   <nav class="navbar">
     <div class="container">
@@ -164,6 +189,15 @@ Inspired by a longing for justice, and driven by the memory of lost love, Darrow
     <footer class="site-footer">
 	<div class="container">
 		<p>Jake Cooper Design &copy; 2016.&ensp;All rights reserved.</p>
+		<div 
+			class="fb-like" 
+			data-href="http://www.bowenstreetbookclub.com" 
+			data-width="96" 
+			data-layout="button" 
+			data-action="like" 
+			data-show-faces="false" 
+			data-share="true"
+		></div>
 	</div>
 </footer>
 
@@ -177,7 +211,6 @@ Inspired by a longing for justice, and driven by the memory of lost love, Darrow
   ga('send', 'pageview');
 
 </script>
-
 
   </body>
 

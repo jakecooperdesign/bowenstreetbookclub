@@ -3568,6 +3568,9 @@ input {
   border: 1px solid #ebebeb;
   border-radius: .25rem; }
 
+.site-footer .fb-like {
+  margin-top: 1.5em; }
+
 .hero--bg {
   position: relative;
   overflow: hidden; }

@@ -10,11 +10,18 @@ title: "Bowen Street Book Club"
 description: > 
   We read a chapter or two each week and fangirl out in the comments section of my weekly recap & review hosted online in this nerdy book club.
 email: jakecooperdesign@gmail.com
-author: jakec729
 logo: /assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg
 
 url: "http://bowenstreetbookclub.com"
 baseurl: ""
+twitter:
+  username: bowenstbookclub
+facebook:
+  app_id: 1062263850493715
+  publisher: 150265972061629
+author: 
+  twitter: bowenstbookclub
+
 
 include: ["_pages"]
 
@@ -35,6 +42,7 @@ gems:
 markdown: kramdown
 sass:
   sass_dir: assets/sass
+  stype: compressed
 
 collections:
   books:
@@ -45,6 +53,11 @@ collections:
     permalink: /recaps/:path/
 
 defaults:
+  - 
+    scope: 
+      path: ""
+    values:
+      image: /assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg
   - 
     scope:
       path: ""
