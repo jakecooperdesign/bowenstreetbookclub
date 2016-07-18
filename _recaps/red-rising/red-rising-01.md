@@ -1,8 +1,8 @@
 ---
-title: "The Rising Begins!"
-book_slug: "red-rising"
+title: The Rising Begins!
+book_slug: red-rising
 recap_number: 1
-recap_date: 2016-07-15
+recap_date: 2016-07-18
 span: "Chapters 1 & 2"
 published: true
 ---
