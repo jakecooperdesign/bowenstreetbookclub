@@ -12,7 +12,7 @@ description: >
 email: jakecooperdesign@gmail.com
 logo: /assets/img/branding/Bowen-Street-Book-Club-Logo-Image.jpg
 
-url: "http://bowenstreetbookclub.com"
+url: "http://www.bowenstreetbookclub.com"
 baseurl: ""
 twitter:
   username: bowenstbookclub
@@ -69,4 +69,4 @@ defaults:
       path: ""
       type: "recaps"
     values:
-      layout: "recap" 
+      layout: "recap"
