@@ -22,12 +22,19 @@ layout: default
 		<h2 class="section-heading">Current Book</h2>
 		{% include book-small.html %}
 		<footer class="text--centered">
-			<p class="lead btn btn--outline br-max-md">{{ book.reading_status }}</p>
+			{% assign today = site.time | date: "%Y-%m-%d" %}
+			{% for status in book.schedule %}
+				{% capture date %}{{status.date | date: "%Y-%m-%d"}}{% endcapture %}
+				{% if date > today %}
+					<p class="lead btn btn--outline br-max-md">
+						My recap & review for the <strong>{{status.reading}}</strong> will be posted on <strong>{{status.date | date: "%m/%d"}}</strong>. <br>Get caught up and join me in the comments section!
+					</p>
+				{% endif %}
+			{% endfor %}
 		</footer>
 	</div>
 </section>
 {% endif %}
-
 
 {% if page.how_does_this_work | length %}
 <section class="section-pad">

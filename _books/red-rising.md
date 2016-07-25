@@ -15,6 +15,13 @@ reasons:
   - Obvious Hunger Games / Battle Royale / YA-trope foundation ... I'm game
   - Set in a future Mars dystopia -- which is the best kind of -topia.
   - Highly recommended by fellow nerds, ASOIAF fanboys, and other interesting people.
+schedule:
+  - date: 2016-07-18
+    reading: "Chapters 1 & 2"
+  - date: 2016-07-25
+    reading: "Chapters 3-5"
+  - date: 2016-08-01
+    reading: "Chapters 6-8"
 ---
 
 Darrow is a Red, a member of the lowest caste in the color-coded society of the future. Like his fellow Reds, he works all day, believing that he and his people are making the surface of Mars livable for future generations. Yet he spends his life willingly, knowing that his blood and sweat will one day result in a better world for his children.
