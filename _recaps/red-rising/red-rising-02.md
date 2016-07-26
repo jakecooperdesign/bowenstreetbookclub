@@ -3,7 +3,7 @@ title: The Secret Garden
 book_slug: red-rising
 recap_number: 2
 recap_date: 2016-07-25
-span: "Chapters 3 &en; 5"
+span: "Chapters 3 - 5"
 published: true
 ---
 
