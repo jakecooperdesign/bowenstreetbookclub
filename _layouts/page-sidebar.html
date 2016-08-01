@@ -15,19 +15,19 @@ layout: default
 <section class="section-pad--top">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7">
+			<div class="col-md-7 float--none">
 				{{content}}
 			</div>
-			<div class="col-md-4 col-md-offset-1">
+			{% if layout.comments == true %}
+				{% include comments.html %}
+			{% endif %}
+			<div class="col-md-4 cling-md-top-right">
 				{% include sidebar--book.html %}
 				{% include form--sidebar.html %}
 			</div>
 		</div>
 	</div>
 
-	{% if layout.comments == true %}
-		{% include comments.html %}
-	{% endif %}
 </section>
 
 <footer class="section__footer">

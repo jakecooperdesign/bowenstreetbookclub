@@ -2674,10 +2674,14 @@ button {
 .pull-right {
   float: right; }
 
+.float--none {
+  float: none !important; }
+
 @media screen and (min-width: 480px) {
   .row {
     margin-left: -1em;
-    margin-right: -1em; }
+    margin-right: -1em;
+    position: relative; }
     .row:after {
       content: " ";
       display: block;
@@ -2689,6 +2693,11 @@ button {
     padding-right: 1em;
     width: 100%; } }
 @media screen and (min-width: 320px) {
+  .cling-xs-top-right {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
   .col-xs-1 {
     width: 8.33333%; }
 
@@ -2761,6 +2770,11 @@ button {
   .col-xs-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 480px) {
+  .cling-sm-top-right {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
   .col-sm-1 {
     width: 8.33333%; }
 
@@ -2833,6 +2847,11 @@ button {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 760px) {
+  .cling-md-top-right {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
   .col-md-1 {
     width: 8.33333%; }
 
@@ -2905,6 +2924,11 @@ button {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 960px) {
+  .cling-lg-top-right {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
   .col-lg-1 {
     width: 8.33333%; }
 
@@ -2977,6 +3001,11 @@ button {
   .col-lg-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 1200px) {
+  .cling-xl-top-right {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
   .col-xl-1 {
     width: 8.33333%; }
 
@@ -3560,6 +3589,8 @@ input {
         margin: .25rem; } }
 
 .comments {
+  position: relative;
+  clear: both;
   border-top: 1px solid #e6e6e6;
   margin-top: 6em; }
 

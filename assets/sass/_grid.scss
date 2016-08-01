@@ -32,11 +32,16 @@
 	float: right;
 }
 
+.float--none {
+	float: none !important;
+}
+
 @include bp-min(bp(sm)){
 	.row {
 		@include clearfix;
 		margin-left: -1/2 * $col-gutter;
 		margin-right: -1em;
+		position: relative;
 	}
 
 	[class^="col-"] {
@@ -51,6 +56,12 @@
 
 	@include bp-min($width) {
 
+		.cling-#{$bp}-top-right {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
 		@for $i from 1 through 12 {
 
 			.col-#{$bp}-#{$i} {
@@ -63,3 +74,4 @@
 		}	
 	}
 }
+
