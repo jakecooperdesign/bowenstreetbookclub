@@ -6,7 +6,7 @@ subhead: "Books"
 <h2 class="headline">Recaps</h2>
 
 <article class="recaps">
-{% assign recaps = site.recaps | where:"book_slug", page.slug %}
+{% assign recaps = site.recaps | where:"book_slug", page.slug | sort: "recap_number" | reverse %}
 {% if recaps.size > 0 %}
 	{% for recap in recaps %}
 		{% include recap--summary.html %}
