@@ -6,7 +6,7 @@
 	border-radius: .25rem;
 
 	&__image {
-		width: 40%;
+		max-width: 40%;
 		display: none;
 
 		@include bp-min(bp(lg)) {

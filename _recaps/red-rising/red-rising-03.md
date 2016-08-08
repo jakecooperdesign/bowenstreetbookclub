@@ -3,7 +3,7 @@ title: Twist After Twist
 book_slug: red-rising
 recap_number: 3
 recap_date: 2016-08-06
-span: "Chapters 6-8"
+span: "Chapters 6 - 8"
 published: true
 ---
 Twist after twist in these chapters, Darrow is in for the ride of his life as well as his worst nightmare. 

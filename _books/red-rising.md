@@ -3,6 +3,7 @@ title: "Red Rising"
 book_slug: "red-rising"
 featured: true
 author: "Pierce Brown"
+chapter_nums: 33
 published: "July 15, 2014"
 start_date: 2016-07-15
 reading_status: >
