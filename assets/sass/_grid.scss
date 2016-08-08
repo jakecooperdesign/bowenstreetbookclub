@@ -52,9 +52,21 @@
 	}
 }
 
+.hide {
+	display: none;
+}
+
 @each $bp,$width in $breakpoints {
 
 	@include bp-min($width) {
+
+		.hide-#{$bp} {
+			display: none !important;
+		}
+
+		.show-#{$bp} {
+			display: block !important;
+		}
 
 		.cling-#{$bp}-top-right {
 			position: absolute;

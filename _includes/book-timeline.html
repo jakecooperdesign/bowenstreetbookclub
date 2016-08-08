@@ -1,0 +1,18 @@
+<div class="book__timeline show-md hide">
+	<h4 class="small-heading">Progress:</h4>
+	<div class="timeline__wrap">
+		{% assign recaps = site.recaps | where:"book_slug", book.slug | where: "published", true | sort: "recap_number" %}
+		<ol class="timeline" data-timeline-max="{{book.chapter_nums}}">
+			<li class="marker start" data-marker-val="0"><span class="label">Start</span></li>
+		{% for recap in recaps %}
+			{% assign last_chapter = recap.span | split: " " | last %}
+			{% assign last_class = "" %}
+			{% if recap == recaps.last %}
+				{% assign last_class = "latest" %}
+			{% endif %}
+			<li class="marker {{last_class}}" data-marker-val="{{last_chapter}}"><span class="label">Chapter {{last_chapter}}</span></li>
+		{% endfor %}
+			<li class="marker last" data-marker-val="{{book.chapter_nums}}"><span class="label">End</span></li>
+		</ol>
+	</div>
+</div>

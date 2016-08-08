@@ -2692,7 +2692,16 @@ button {
     padding-left: 1em;
     padding-right: 1em;
     width: 100%; } }
+.hide {
+  display: none; }
+
 @media screen and (min-width: 320px) {
+  .hide-xs {
+    display: none !important; }
+
+  .show-xs {
+    display: block !important; }
+
   .cling-xs-top-right {
     position: absolute;
     top: 0;
@@ -2770,6 +2779,12 @@ button {
   .col-xs-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 480px) {
+  .hide-sm {
+    display: none !important; }
+
+  .show-sm {
+    display: block !important; }
+
   .cling-sm-top-right {
     position: absolute;
     top: 0;
@@ -2847,6 +2862,12 @@ button {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 760px) {
+  .hide-md {
+    display: none !important; }
+
+  .show-md {
+    display: block !important; }
+
   .cling-md-top-right {
     position: absolute;
     top: 0;
@@ -2924,6 +2945,12 @@ button {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 960px) {
+  .hide-lg {
+    display: none !important; }
+
+  .show-lg {
+    display: block !important; }
+
   .cling-lg-top-right {
     position: absolute;
     top: 0;
@@ -3001,6 +3028,12 @@ button {
   .col-lg-offset-12 {
     margin-left: 100%; } }
 @media screen and (min-width: 1200px) {
+  .hide-xl {
+    display: none !important; }
+
+  .show-xl {
+    display: block !important; }
+
   .cling-xl-top-right {
     position: absolute;
     top: 0;
